@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Movie App 2021
+React JS Fundamentals Course 2020
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+### `개발환경`
+- Visual Studio Code
+- Javascript
+- JSX
+- Chrome
+- git
 
-In the project directory, you can run:
+<br>
+
+### `자바스크립트 공식 사이트` 
+- https://ko.javascript.info/
+
+<br>
+
+### `package.json`
+- scripts 키값(명령어) 수정할 수 있는
+
+<br>
+
+### `리액트 앱 실행`
+- yarn start (추천)
+- npm start
+
+<br>
+
+### `리액트 앱 종료`
+- Ctrl + C
+
+<br>
+
+### `JSX`
+- HTML과 자바스크립트를 조합한 문법
+
+<br>
+
+### `Component`
+- JSX로 생성
+- 컴포넌트 이름은 대문자로 시작
+- 컴포넌트에 데이터를 전달할 때는 props를 사용
+- 컴포넌트에 props를 전달하면 props에 있는 데이터가 하나의 객체로 변환되어 컴포넌트(함수)의 인자로 전달된다.
+
+<br>
+
+
+### `react project 생성`
+- npx create-react-app { project name }
+
+<br>
 
 ### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Starts the development server.
 
 ### `yarn build`
+- Bundles the app into static file for production.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `yarn test`
+- Starts the test runner.
 
 ### `yarn eject`
+- Removes this tool and copies build dependencies, configuration files and 
+  scripts into the app directory. If you do this, you can't go back!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `prop-types 라이브러리 설치`
+- npm install prop-types 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `function Component, class Component 차이`
+- React.Component에서 제공하는 기능들을 사용하기 위해서는 클래스형 컴포넌트를 사용해야 한다.
+- App 클래스가 React.Component를 상속받음으로 많은 기능을 사용할 수 있게 된다.
+- React.Component에서 제공하는 제일 중요한 기본 기능은 동적인 데이터를 다룰 때 사용하는 state이다.
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `클래스형 컴포넌트`
+- 함수가 아니라 return문을 사용할 수 없다.
+- 함수 형태의 JSX를 반환할 수 없다.
+- 클래스형 컴포넌트에서는 JSX를 반환하기 위해 render() 함수를 사용한다.
