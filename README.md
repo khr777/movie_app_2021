@@ -67,6 +67,18 @@ React JS Fundamentals Course 2020
 
 <br>
 
+### `git 저장소 초기화`
+- git init
+
+
+
+<br>
+
+### ❓ favicon.ico (파비콘)이란?
+- 사이트의 제목에 사용되는 아이콘
+
+<br>
+
 ### `prop-types 라이브러리 설치`
 - npm install prop-types 
 
