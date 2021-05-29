@@ -17,6 +17,13 @@ React JS Fundamentals Course 2020
 
 <br>
 
+### `react` 기초 개념
+- Component
+- JSX
+- props
+
+<br>
+
 ### `package.json`
 - scripts 키값(명령어) 수정할 수 있는
 
